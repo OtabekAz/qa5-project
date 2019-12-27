@@ -46,6 +46,18 @@ After registration, the user receives an email address (confirmation by email).
 
 ### 4. Teacher: 
         (have rights: [auth, get all users, get all groups,  lecture (create, update, get), homework(get, create, update), get all diary, quiz(get, create, update, answer)  ]:
+ The role **‘teacher’** can get  all users  in Courses, Groups and their  progress. 
+ Also, **‘teacher’** can see all Daily reports in Dairy. 
+  This role can get, create, update Lectures, Homeworks and Quizzes.
+ * Auth
+ * Get all users
+ * Courses: get all courses
+ * Groups: get all groups
+ * Lecture: create, update, get 
+ * Homework: create, update, get 
+ * Diary: get all
+ * Quiz: create, update, get, answer
+
 
 ### 5. Quiz: 
 Any user assigned with the role **‘quiz’** can access, edit, 
