@@ -17,6 +17,12 @@ Registration page is displayed after the user clicks “Settings” in the dropd
 #### First Name/Last Name - Vladimir Semenovich
 #### Email confirmed  -  Andrey Seryakov
 #### Cell phone number - Aleksei Sharygin
+Cell phone number is a required field. Field has a validator:
+    *Phone number should start from country code. 
+    *Phone number length should be 11-13 numbers. 
+    *Only numbers can be used.
+	*If user used wrong symbols or wrote the wrong number of symbols application should show the message to help user understand the problem.
+
 #### About/Goals/English level - Olga Shchekina
 #### Google Doc resume link/LinkedIn profile link/
 #### Facebook profile link/GitHub profile link - Nazariy Silchuk
