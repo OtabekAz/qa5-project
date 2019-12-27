@@ -1,6 +1,6 @@
 stozhka-iryna	Roles and Permissions
 strik-anna	Roles and Permissions
-sulaimaj-shaiakhmedov	Roles and Permissions
+sulaiman-shaiakhmedov	Roles and Permissions
 tkachenko-lyudmyla	Roles and Permissions
 troyeglazov-sergey	Roles and Permissions
 uruskiy-ivan	Roles and Permissions
@@ -56,4 +56,18 @@ This role Created to protect the app from low-quality profiles.
 ### Flash: 
 
 ### Admin 
-This role has all permissions.        
+The Admin role has all the permissions available.
+Admin's Permissions breakdown by Application and Activities:
+
+* User: auth, get.all, delete.any, update.any;
+* Course: get.all, create, update.any, delete,any, lesson.create;
+* Group: get.all, get, create, update.any, delete.any;
+* Lecture: get.all, get, create, update.any, delete.any;
+* Homework: get.all, answer, create, review;
+* Diary: get.all, creat, update.any, delete.any;
+* Quiz Questions group: get.all, create, update.any, delete.any;
+* Quiz question: get.all, create, update.any, delete.any;
+* Quiz Answer Group: get.all, create, update.any, delete.any;
+* Quiz answer: get.all, create, update.any, delete.any;
+* Flashcard group: get.all, create, update.any, delete.any;
+* Flashcard Training: get.all, create, update.any, delete.any.
