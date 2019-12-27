@@ -53,6 +53,25 @@ miroshnikov-maksim	Profile
 nazarov-evgenii	Profile
 nikolaev-artem	Profile
 Omelchenko-Kateryna	Profile
+
+# Daily reports
+#### Description: 
+One of the obligatory parts for Student role at https://app.pasv.us/ is creating daily reports.
+After daily report was created by User (using Create day report button on the Home page of Profile page)
+and Approved by Administrator or other person with such privilege
+it appears on the list of all User’s Daily reports on the Daily reports section.
+Label Daily reports is located on the top of Daily reports section, 
+on the right from Daily report there is a label icon with number of Daily reports
+current User has created (and Admin approved).
+
+#### Structure: 
+
+New Daily reports are added to the top of the list of previous Daily reports;
+Each Daily report on the list has a line that shows the date of creation ( Month, Day, Year and Time); 
+Under the date labels with names of dropdown fields that User chose while creating daily report are displayed.
+Then actual text of Daily report is shown.
+There is Like icon that shows how many likes this report has (from other Users). User can Like his own report.
+
 omuraliev-miradil	Profile
 
 -------------------------------------------------------------------
