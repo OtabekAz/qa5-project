@@ -17,6 +17,11 @@ maslov-stanislav	Login
 ### User Interface
 
 ##### Header
-Hyperlink “Progress Monitor” return to homepage app.pasv.us.
+* Hyperlink “Progress Monitor” return to homepage app.pasv.us.
  
-Buttons: Login, Register.
+* Buttons: Login, Register.
+
+#### Dmitriy Kovalenko
+### Body
+ * User has to fill 2 required text fields: email and password. 
+ * These fields should correspond user’s email and password while their registration.
