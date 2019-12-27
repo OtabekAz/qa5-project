@@ -34,4 +34,6 @@ maslov-stanislav	Login
 #### Anzhelika Kusevych
 * Login button - in case of valid credentials, user is redirected to the user’s profile page. In case of invalid credentials, the error message appears.
 
+#### Hanna Lysenko
+*  Forgot Password? Redirects user to URL https://app.pasv.us/user/password/reset/request. 
 
