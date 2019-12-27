@@ -15,7 +15,17 @@ burava-alena	Register
 buza-stanislav	Register
 diminscaia-natalia	Register
 dipon-yelena	Register
-frediuk-olena	Register
+
+frediuk-olena
+####Field Password
+Consists of a combination of characters:
+* the field is required
+* any register
+* any language
+* any special characters
+* any digits (0 - 9)
+* the minimum password length is 5 characters and the maximum password length is 30 characters
+
 
 
 ####	Galushkina Diana
