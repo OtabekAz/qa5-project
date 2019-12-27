@@ -37,3 +37,5 @@ maslov-stanislav	Login
 #### Hanna Lysenko
 *  Forgot Password? Redirects user to URL https://app.pasv.us/user/password/reset/request. 
 
+#### Maslov Stanislav 
+* Footer Contains version number, copyright notice with year and application slogan “eat(); sleep(); code(); repeat();”
