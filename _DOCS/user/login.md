@@ -29,6 +29,9 @@ maslov-stanislav	Login
 * Email - input field, required, accept only existing on the database user’s email.
 
 #### Iryna Manukhina
-
 * Password - input field, required, masked by dots.
+
+#### Anzhelika Kusevych
+* Login button - in case of valid credentials, user is redirected to the user’s profile page. In case of invalid credentials, the error message appears.
+
 
