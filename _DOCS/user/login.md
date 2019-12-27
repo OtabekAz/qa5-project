@@ -12,3 +12,11 @@ maslov-stanislav	Login
 ### Description
 * To be able to login, user must be already registered to the web-page app.pasv.us.
 * User Login page https://app.pasv.us/user/login is displayed after user clicks ‘Login’ button on the Homepage.
+
+#### Oleg Kadyrov
+### User Interface
+
+##### Header
+Hyperlink “Progress Monitor” return to homepage app.pasv.us.
+ 
+Buttons: Login, Register.
