@@ -28,3 +28,7 @@ maslov-stanislav	Login
 #### Kuk Vova
 * Email - input field, required, accept only existing on the database user’s email.
 
+#### Iryna Manukhina
+
+* Password - input field, required, masked by dots.
+
