@@ -16,6 +16,18 @@ List of available roles:
 ### 1. New 
 Initial role after registration. 
 This role Created to protect the app from low-quality profiles.
+  * The main task: 
+Is in getting account on [https://pasv.us]
+to identify a person,to give an access to allowed options. 
+  * Steps to create a “new” role:
+User have to register on [https://pasv.us/user/register] , and will receive "new" role by default.
+All required fields have to be filled to create the account 
+After registration, user getting assigned with "new" role.
+The ‘new’ role only allows user to edit a person's profile. 
+Viewing site materials is not allowed for this role.
+After registration, the user receives an email address (confirmation by email).
+“new” role can be upgraded to “learner” role only with “admin”.
+
 
 ### 2. Learner: 
  * course: get all ,  
@@ -44,8 +56,8 @@ The role **‘quiz’** can be only assigned to a user by administrator, or assi
 manually by database administrator.
           
 ACL for **‘quiz’** role:
-_User:_ auth;
-_Quiz question, - answer, - question group, - answer group:_ 
+* _User:_ auth;
+* _Quiz question, - answer, - question group, - answer group:_ 
 all permissions are granted. (* See Permissions Matrix below)
 
 ### 6. Course:
