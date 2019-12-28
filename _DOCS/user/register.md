@@ -79,3 +79,10 @@ Consists of a combination of characters:
 
 golovko-irina	Register
 ilinets-jenny	Register
+
+##### Submit Button
+
+* This button allows to confirm and send the information entered by a user 
+  to gain actual registration in the system;
+* the button will become active only upon all the fields are filled out; 
+* the user will receive an e-mail confirming his/her registration in the system 
