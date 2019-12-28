@@ -87,7 +87,18 @@ ACL for **‘quiz’** role:
 all permissions are granted. (* See Permissions Matrix below)
 
 ### 6. Course
-        
+        Any user with the "Course" role has access to the title 
+        project page "Progress Monitor" and section "Course". 
+        In the Courses section, with the role of the “Course”, 
+        it is allowed to register, create and edit the content 
+        of courses and lessons. 
+        Group courses by name and sections, additions to courses, 
+        links to lectures from YouTube, links to additional 
+        material for studying the topic of  the lesson. It is 
+        also possible to tracking student progress and update it. 
+        acl: ["course.get.all", "course.create", 
+        "course.update.any", "lesson.create"]
+
 ### 7. Flash
 
 ### 8. Admin 
