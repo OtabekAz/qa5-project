@@ -30,11 +30,16 @@ After registration, the user receives an email address (confirmation by email).
 
 
 ### 2. Learner: 
+The role 'learner' has restricted permissions and rights:
  * course: get all ,  
  * lectures: get all, 
  * diary: create  
  * quiz: get, create answer, 
  * flash: get, create training
+ 
+Learner has access to all courses, included lectures, tests, cards, conspects and quizes.
+This role enable to create diary post, but unable edit that after publishing. While get training through quiz learner can create answers. 
+Learner can create, edit and use flash cards.
  
 ### 3. Student: 
 
@@ -44,7 +49,6 @@ After a user is assigned with “student’ role he/she gets access to “Groups
 Every group has specific Access Type, Members and Observers parameters. If the group has “student” Access type, all users with “student” role do see it in the list. If the group has “member” Access type, only students assigned as Members to the group can see it in the list.
 Every group has the following sub-pages: Description, Rating, Lectures, Quiz. All these sub-pages are visible for the user with “student” role who has access to the correspondent group. Student account appears on a Rating page only in case he is recorded as a member in Members parameter of a group.
 User with “student” role gets access to “Homework” part of a lecture page (route to lectures page: Group -> Lectures - > select the lecture).
-
 
 ### 4. Teacher: 
         (have rights: [auth, get all users, get all groups,  lecture (create, update, get), homework(get, create, update), get all diary, quiz(get, create, update, answer)  ]:
