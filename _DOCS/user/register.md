@@ -104,8 +104,7 @@ after the end of the course and global ones.
 * Numbers of characters in the field - unlimited.
 
 #### English level
-
-This field is to obtain information on the user’s English proficiency level. 
+This field is to obtain information on the user's English proficiency level. 
 Offered 9 items:
 * Zero
 * Beginner
@@ -116,15 +115,15 @@ Offered 9 items:
 * Advanced
 * Proficient
 * Native
- 
  The user is expected to pick only one option, and the green check-mark will show up
  immediately after the user click on his/her choice from the breakdown.
-
-##### Submit Button
-
-* This button allows to confirm and send the information entered by a user 
+ 
+ ##### Submit Button
+ 
+* The form will be accepted by the system, once the user clicks on submit button
+  and the immediate message of “The user created successfully. Please check your   
+  e-mail” will show up in green.
+* This button allows to confirm and send the information entered by a user
   to gain actual registration in the system;
-* the button will become active only upon all the fields are filled out; 
-* the user will receive an e-mail confirming his/her registration in the system 
-
-
+* the button will become active only upon all the fields are filled out;
+* the user will receive an e-mail confirming his/her registration in the system.
