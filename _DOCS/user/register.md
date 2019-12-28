@@ -1,5 +1,3 @@
-
-
 # User Register
 ###burava-alena
 ##1.Description of the page 
@@ -52,6 +50,31 @@ burava-alena	Register
 * The length is no more than 20 characters.
 
 
+#### Stanislav Buza Field Last Name
+An empty input field with title Last Name
+* Must be 20 characters or less
+* If user exceeds limit, a red message must displayed under "Must be 20 characters or less"
+* Only letters
+* No spaces
+* No symbols
+* Allowed to use - and '
+* If user inputs anything but letters, a red message must displayed under "Only letters please. Spaces and symbols are not allowed."
+* Under the field display an example, like "Example: Potter"
+
+diminscaia-natalia	Register
+dipon-yelena	Register
+
+
+#### Frediuk Olena Field Password
+Consists of a combination of characters:
+* the field is required
+* any register
+* any language
+* any special characters
+* any digits (0 - 9)
+* the minimum password length is 5 characters and the maximum password length is 30 characters
+
+
 galushkina-diana
 ####Field About
 ** https://app.pasv.us/user/register
@@ -62,12 +85,7 @@ galushkina-diana
    
 golovko-irina	Register
 ilinets-jenny	Register
-##### Submit Button
 
-* This button allows to confirm and send the information entered by a user 
-  to gain actual registration in the system;
-* the button will become active only upon all the fields are filled out; 
-* the user will receive an e-mail confirming his/her registration in the system 
 
 ##### My Goals
 * User has to write information about his/her student’s goals 
@@ -79,4 +97,9 @@ after the end of the course and global ones.
 
 
 
+##### Submit Button
 
+* This button allows to confirm and send the information entered by a user 
+  to gain actual registration in the system;
+* the button will become active only upon all the fields are filled out; 
+* the user will receive an e-mail confirming his/her registration in the system 
