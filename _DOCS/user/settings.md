@@ -1,7 +1,35 @@
 pe-liudmila	Settings
 sardari-aya	Settings
 semenovich-vladimir	Settings
+
 seryakov-andrey	Settings
+
+#### Email field requirements
+
+• Email consists of: account name, @ sign, full domain name
+
+• the field must contain only Latin characters (any case)
+
+• without using spaces
+
+• can contain digits (0-9)
+
+• may contain the following characters ._-+ 
+
+• without the use of next special characters !@#$%^&*()_+=`~/\,.?><|
+
+• the allowed length of the account name (up to the @ sign) must not exceed 63 characters
+
+• the allowed length of the domain name (after @) must not exceed 63 characters
+
+• in the domain part of the Email, the dot and dash symbol ( . - ) can be used multiple times 
+(to separate levels of the domain)
+
+• if you enter information incorrectly, the field is highlighted in red
+
+• for a field that meets all the conditions, the frame becomes green, and a green check mark
+ appears on the right
+
 sharygin-aleksei	Settings
 shchekina-olga	Settings
 silchuk-nazariy	Settings
