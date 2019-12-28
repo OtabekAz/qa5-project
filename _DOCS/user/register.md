@@ -62,6 +62,14 @@ An empty input field with title Last Name
 * Under the field display an example, like "Example: Potter"
 
 diminscaia-natalia	Register
+#### Cell Phone 
+* field format complies with international standard:
+17775551122 or 380653332244
+* the field should contain only digits (0 - 9)
+* without spaces
+* without the use of letters and special characters! @ # $% ^ & * () _ + = `~ / \,.?> <|
+* phone number starts with country code
+* the length of the entered data is not less than 11 and not more than 12 digits
 dipon-yelena	Register
 
 
