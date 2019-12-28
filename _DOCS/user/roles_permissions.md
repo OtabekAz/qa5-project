@@ -37,12 +37,14 @@ After registration, the user receives an email address (confirmation by email).
  * flash: get, create training
  
 ### 3. Student: 
- * course: get all,  
- * lectures: get all, 
- * homework: get all,
- * diary: create  
- * quiz:get, create answer, 
- * flash: get, create training
+
+        (have rights: user (auth, get all), course(get all), group(get), lecture (get), homework(get all, answer), diary (get all, create), quiz(get all)
+The participants of studying process should get the role “student’. 
+After a user is assigned with “student’ role he/she gets access to “Groups” website section in addition to all sections that were accessible for him/her with “learner” role. The list of groups in “Groups” section visible for particular user depends on groups he has access to. 
+Every group has specific Access Type, Members and Observers parameters. If the group has “student” Access type, all users with “student” role do see it in the list. If the group has “member” Access type, only students assigned as Members to the group can see it in the list.
+Every group has the following sub-pages: Description, Rating, Lectures, Quiz. All these sub-pages are visible for the user with “student” role who has access to the correspondent group. Student account appears on a Rating page only in case he is recorded as a member in Members parameter of a group.
+User with “student” role gets access to “Homework” part of a lecture page (route to lectures page: Group -> Lectures - > select the lecture).
+
 
 ### 4. Teacher: 
         (have rights: [auth, get all users, get all groups,  lecture (create, update, get), homework(get, create, update), get all diary, quiz(get, create, update, answer)  ]:
