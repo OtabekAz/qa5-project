@@ -70,7 +70,13 @@ diminscaia-natalia	Register
 * without the use of letters and special characters! @ # $% ^ & * () _ + = `~ / \,.?> <|
 * phone number starts with country code
 * the length of the entered data is not less than 11 and not more than 12 digits
+
 dipon-yelena	Register
+####Field Email
+* Email field has to have a valid registered email address. 
+* User must be able to access the provided email in a domain.
+* After registration, user will receive an email with title "[PASV] Verify your email address" and must follow instructions in the email to finish a confirmation process. 
+
 
 
 #### Frediuk Olena Field Password
