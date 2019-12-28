@@ -20,14 +20,14 @@ can be changed and assigned only by the user with **"admin"** role.
 ### 1. New 
 Initial role after registration. 
 This role Created to protect the app from low-quality profiles.
-The purpose of this role to impose restrictions on new account before it has been validated.
+The purpose of this role to impose restrictions on new account before it has been validated.  
 In order to be assigned with the role **"new"** user have to 
 register on [https://pasv.us/user/register] , and will receive role **"new"** by default.
 All required fields have to be filled out to create the account.
 After registration, user getting assigned with **"new"** role.
-The role **"new"** only allows users to access and edit theirs profile information. 
+The role **"new"** only allows users to access and edit theirs profile information.  
 Viewing site materials is not allowed for this role.
-After registration, user receives confirmation by email.
+After registration, user receives confirmation by email.  
 The role **“new”** can be upgraded to **“learner”** role only with **“admin”**.
 
 ### 2. Learner
@@ -44,20 +44,20 @@ The role **“new”** can be upgraded to **“learner”** role only with **“
  Learner can create, edit and use flash cards.
  
 ### 3. Student
-The participants of studying process should get the role “student’. 
-After a user is assigned with “student’ role he/she gets access to “Groups” website 
-section in addition to all sections that were accessible for him/her with “learner” role. 
+The participants of studying process should get the role **"student"**.   
+After a user is assigned with **"student"** role he/she gets access to “Groups” website 
+section in addition to all sections that were accessible for him/her with **“learner”** role.  
 The list of groups in “Groups” section visible for particular user depends on groups 
-he has access to. 
+he has access to.
 Every group has specific Access Type, Members and Observers parameters. 
-If the group has “student” Access type, all users with “student” role do see it in the list. 
+If the group has **“student”** Access type, all users with **“student”** role do see it in the list. 
 If the group has “member” Access type, only students assigned as Members to the group 
-can see it in the list.
+can see it in the list.  
 Every group has the following sub-pages: Description, Rating, Lectures, Quiz. 
-All these sub-pages are visible for the user with “student” role who has access 
+All these sub-pages are visible for the user with **“student”** role who has access 
 to the correspondent group. Student account appears on a Rating page only in case 
-he is recorded as a member in Members parameter of a group.
-User with “student” role gets access to “Homework” part of a lecture page 
+he is recorded as a member in Members parameter of a group.  
+User with **“student”** role gets access to “Homework” part of a lecture page 
 (route to lectures page: Group -> Lectures - > select the lecture).
 
 ### 4. Teacher
@@ -81,23 +81,22 @@ to lectures, courses and any other project section except for _Quiz_ section and
 The role **‘quiz’** can be only assigned to a user by administrator, or assigned 
 manually by database administrator.
           
-ACL for **‘quiz’** role:
+_Permissions for **‘quiz’** role:_
 * _User:_ auth;
 * _Quiz question, - answer, - question group, - answer group:_ 
-all permissions are granted. (* See Permissions Matrix below)
+all permissions are granted. _(* See Permissions Matrix below)_
 
 ### 6. Course
-        Any user with the "Course" role has access to the title 
-        project page "Progress Monitor" and section "Course". 
-        In the Courses section, with the role of the “Course”, 
-        it is allowed to register, create and edit the content 
-        of courses and lessons. 
-        Group courses by name and sections, additions to courses, 
-        links to lectures from YouTube, links to additional 
-        material for studying the topic of  the lesson. It is 
-        also possible to tracking student progress and update it. 
-        acl: ["course.get.all", "course.create", 
-        "course.update.any", "lesson.create"]
+Any user with the **"course"** role has access to the title 
+project page "Progress Monitor" and section **"course"**. 
+In the Courses section, with the role of the **“course”**, 
+it is allowed to register, create and edit the content 
+of courses and lessons.  
+Group courses by name and sections, additions to courses, 
+links to lectures from YouTube, links to additional 
+material for studying the topic of  the lesson.   It is 
+also possible to tracking student progress and update it. 
+Permissions: ["course.get.all", "course.create", "course.update.any", "lesson.create"]
 
 ### 7. Flash
 
@@ -118,7 +117,77 @@ Admin's Permissions breakdown by Application and Activities:
 * Flashcard group: get.all, create, update.any, delete.any;
 * Flashcard Training: get.all, create, update.any, delete.any.
 
-### Prepared by:
+### Roles and permissions matrix
+
+|       ACTIVITY        |       |         |         |  ROLES  |       |        |       |       |
+|-----------------------|-------|---------|---------|---------|-------|--------|-------|-------|
+|                       | New   | Learner | Student | Teacher | Quiz  | Course | Flash | Admin |
+| //USER                |       |         |         |         |       |        |       |       |
+| auth                  | TRUE  | TRUE    | TRUE    | TRUE    | TRUE  | FALSE  | TRUE  | TRUE  |
+| get\.all              | FALSE | FALSE   | TRUE    | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| //COURSE              |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | TRUE    | TRUE    | TRUE    | FALSE | TRUE   | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| lesson\.create        | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | FALSE | TRUE  |
+| //GROUP               |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| get                   | FALSE | FALSE   | TRUE    | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| //LECTURE             |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | TRUE    | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| get                   | FALSE | FALSE   | TRUE    | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| //HOMEWORK            |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | TRUE    | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| answer                | FALSE | FALSE   | TRUE    | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| review                | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| //DIARY               |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | TRUE    | TRUE    | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| create                | FALSE | TRUE    | TRUE    | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| //QUIZ QUESTION GROUP |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | TRUE    | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | TRUE    | FALSE | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | FALSE | TRUE  |
+| //QUIZ QUESTION       |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | TRUE    | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | TRUE  | FALSE  | FALSE | TRUE  |
+| //Quiz ANSWER GROUP   |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| create                | FALSE | TRUE    | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | TRUE  | FALSE  | FALSE | TRUE  |
+| //Quiz ANSWER         |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | TRUE    | TRUE  | FALSE  | FALSE | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | TRUE  | FALSE  | FALSE | TRUE  |
+| //FLASHCARD GROUP     |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | TRUE  | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | TRUE  | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | TRUE  | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | TRUE  | TRUE  |
+| //FLASHCARD TRAINING  |       |         |         |         |       |        |       |       |
+| get\.all              | FALSE | TRUE    | TRUE    | FALSE   | FALSE | TRUE   | TRUE  | TRUE  |
+| create                | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | TRUE  | TRUE  |
+| update\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | TRUE   | TRUE  | TRUE  |
+| delete\.any           | FALSE | FALSE   | FALSE   | FALSE   | FALSE | FALSE  | TRUE  | TRUE  |
+
+
+Prepared by:
 * Stozhka-iryna
 * Strik-anna
 * Sulaiman-shaiakhmedov
@@ -130,6 +199,4 @@ Admin's Permissions breakdown by Application and Activities:
 * Yulia-liashenko
 * Sakilov-leonid
 * Beylina-polina
-
-
 
