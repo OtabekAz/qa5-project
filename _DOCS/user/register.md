@@ -50,12 +50,22 @@ burava-alena	Register
 * The length is no more than 20 characters.
 
 
-buza-stanislav	Register
+#### Stanislav Buza Field Last Name
+An empty input field with title Last Name
+* Must be 20 characters or less
+* If user exceeds limit, a red message must displayed under "Must be 20 characters or less"
+* Only letters
+* No spaces
+* No symbols
+* Allowed to use - and '
+* If user inputs anything but letters, a red message must displayed under "Only letters please. Spaces and symbols are not allowed."
+* Under the field display an example, like "Example: Potter"
+
 diminscaia-natalia	Register
 dipon-yelena	Register
 
-frediuk-olena
-####Field Password
+
+#### Frediuk Olena Field Password
 Consists of a combination of characters:
 * the field is required
 * any register
