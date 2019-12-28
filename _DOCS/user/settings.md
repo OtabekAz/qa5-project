@@ -25,6 +25,18 @@ Cell phone number is a required field. Field has a validator:
    * If user used wrong symbols or wrote the wrong number of symbols application should show the message to help user understand the problem.
 
 #### About/Goals/English level - Olga Shchekina
+# ABOUT
+About is a required field.
+The user should write information about himself, his experience, hobby. Any language can be used. 
+
+# MY GOALS
+My Goals  is a required field.
+The user should write information about his goals in programming, career. Any language can be used. 
+
+# ENGLISH LEVEL
+User must select one of the English language levels from the pop-up menu: 
+Zero, Beginner, Elementary, Pre-intermediate, Intermediate, Upper-intermediate, Advanced, Proficient, Native.
+
 #### Google Doc resume link/LinkedIn profile link/
 #### Facebook profile link/GitHub profile link - Nazariy Silchuk
 #### T-shirt size/Delivery address - Pavel S.
