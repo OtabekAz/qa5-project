@@ -74,18 +74,14 @@ Consists of a combination of characters:
 * the minimum password length is 5 characters and the maximum password length is 30 characters
 
 
-
-####	Galushkina Diana
-** Description of the page: User Register Field ***About*** requirements:
-*https://app.pasv.us/user/register
-
-* This field has the name **About**  and the field is required .
-* Users need to wright information about their  experience, skills, hobbies 
-   also users can use their preferred language.
-* The field should contain at least one any character in any language.
-* Numbers of characters in the field - unlimited.
-
-
+galushkina-diana
+####Field About
+** https://app.pasv.us/user/register
+* the field is required 
+* should contain at least one any character any language
+* numbers of characters in the field - unlimited
+* users need to wright information about their experience, skills, hobbies 
+   
 golovko-irina	Register
 ilinets-jenny	Register
 
