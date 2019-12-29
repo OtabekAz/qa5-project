@@ -44,21 +44,21 @@ The role **“new”** can be upgraded to **“learner”** role only with **“
  Learner can create, edit and use flash cards.
  
 ### 3. Student
-The participants of studying process should get the role **"student"**.   
+The participants of studying process should get the role **"student"**. \
 After a user is assigned with **"student"** role he/she gets access to “Groups” website 
 section in addition to all sections that were accessible for him/her with **“learner”** role.  
 The list of groups in “Groups” section visible for particular user depends on groups 
-he has access to.
+he has access to. \
 Every group has specific Access Type, Members and Observers parameters. 
 If the group has **“student”** Access type, all users with **“student”** role do see it in the list. 
 If the group has “member” Access type, only students assigned as Members to the group 
-can see it in the list.  
+can see it in the list.\
 Every group has the following sub-pages: Description, Rating, Lectures, Quiz. 
 All these sub-pages are visible for the user with **“student”** role who has access 
 to the correspondent group. Student account appears on a Rating page only in case 
-he is recorded as a member in Members parameter of a group.  
+he is recorded as a member in Members parameter of a group.  \
 User with **“student”** role gets access to “Homework” part of a lecture page 
-(route to lectures page: Group -> Lectures - > select the lecture).
+(route to lectures page: Group -> Lectures - > select the lecture). 
 
 ### 4. Teacher
  The role **‘teacher’** can access users list in Courses, Groups and their progress. 
