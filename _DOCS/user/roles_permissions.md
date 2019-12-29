@@ -99,6 +99,17 @@ also possible to tracking student progress and update it.
 Permissions: ["course.get.all", "course.create", "course.update.any", "lesson.create"]
 
 ### 7. Flash
+Users assigned with the role **‘flash’** can access, create and edit flash cards, 
+but they have no permission to delete "flash" cards. 
+Users with the role **‘flash’** can not change or see their profile settings and info.
+They have no access to lectures, courses and any other project sections except 
+for _**'Flash cards'**_ section. 
+The role **‘flash’** can be only assigned to the user by **"admin"**, or assigned 
+manually by database administrator. 
+Available actions for **"flash"** role users:
+* 'refresh' 
+* 'create new card' => have two fields 'questions' & 'answers'
+* 'training'
 
 ### 8. Admin 
 The **"admin"** role has all the permissions available.
