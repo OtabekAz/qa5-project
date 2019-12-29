@@ -1,32 +1,40 @@
 # User Register
 
-## 1.Description of the page 
+## 1.Overview: Description of the page 
 To have access to the system a new user must register. 
-To do that, user needs to do the following:
-* Get to the **User Register** page by clicking “Register” button located on the Home page. 
-* Clicking the “Register” button user should be redirected to User Register page url: https://app.pasv.us/user/register.
-* User Register form is displayed and user is supposed to fill it out (**all the fields are required**).
-* The form will be accepted by the system, once the user clicks on ‘Submit Button’ and the immediate message of 
-  “The user created successfully. Please check your e-mail” will show up on the right lower corner of the screen
-  in green. The user will receive an e-mail with a confirmation of his/her registration. 
-* The user will gain full access to the system only after his/her profile is reviewed and approved by
-  the system administrator. On his/her first log-in attempt to the website (after confirmation e-mail was 
-  successfully received by the user) the following message will show up on the user’s screen: 
-  ‘You are a new user. We carry out a manual check of each profile. Your profile is not confirmed by 
-  administrator. Edit profile’. The administrator may request to edit applicant’s profile or block/delete access
-  if any fictitious or dummy data was suspected.  
-* If an already registered user tries to register, the system will display the following message 
-  **“User with this e-mail exists.”**
+To do that, a user needs to do the following:
+* get to the **User Register** page by clicking 'Register' button located on the Home page 
+
+* by clicking the 'Register' button, the user will be redirected to the User Register page url: 
+  https://app.pasv.us/user/register
+  
+* User Register form will be displayed, and a new user will be expected to fill out all of the empty fields 
+  (**all the fields are required**).
+  
+* once the user clicks on **‘Submit Button’**, the form will be accepted by the system  and following message 
+  will appear on the right lower corner of the screen in green: 
+  **“The user created successfully.Please check your e-mail”**. The user will receive an e-mail with a confirmation of his/her registration
+   
+* the new user will gain full access to the system only upon review and approval of his/her profile by
+  the system administrator. Thus, on new user's first log-in attempts preceded by his/her successful receipt of 
+  confirmation e-mail, the following message may show up on the user’s screen: 
+  **‘You are a new user. We carry out a manual check of each profile. Your profile is not confirmed by our administrator’**.
+ 
+* the administrator may request to edit new user’s profile or block or delete his/her access altogether if any fictitious 
+  or dummy data was suspected
+    
+* if an already registered user tries to register, the system will display the following message:
+  **'User with this e-mail exists'**
 
 ## 2. User Interface
 ### 2.1 Header: 
-Contains “Progress Monitor” (hyperlinked to homepage), “Login” and “Register” buttons.
+Contains 'Progress Monitor' (hyperlinked to homepage), 'Login' and 'Register' buttons.
 
 ### 2.2 Body:
 In the beginning of the form there is a following message displayed:
-**“Profiles with fictitious or dummy data will be deleted.”** 
+**'Profiles with fictitious or dummy data will be deleted'** 
 
-User register form contains 8 required fields: 
+User Register Form contains the following eight required fields and one Submit Button: 
 1. First Name
 2. Last Name
 3. Cell phone number
@@ -46,38 +54,40 @@ Contains the following information:
 
 ### First Name
 
-* only Latin letters are allowed without spaces;
+* only Latin letters and only one word (no spaces) will be accepted;
 * numbers and special symbols (!@#$%^&*()_+=`~/\,.?><|) are not allowed;
 * it is allowed to use - and ';
-* the length is no more than 20 characters.
+* the length is no more than 20 characters;
+* if a new user starts entering his/her second name (middle name or his/her title etc.) as a second word, 
+  a warning message of **'Only letters please. Spaces and symbols are not allowed” will appear
+* 'Example: Harry' will be templated at the bottom of this field  
 
 ### Last Name
-An empty field with title Last Name:
-* must be 20 characters or less;
-* if user exceeds limit, a red message must displayed under "Must be 20 characters or less";
-* only letters;
-* no spaces;
-* no symbols;
-* allowed to use - and ';
-* if user inputs anything but letters, a red message must displayed under "Only letters please; 
-  spaces and symbols are not allowed.";
-* under the field display an example, like "Example: Potter".
 
+* must be 20 characters or less; if user exceeds this limit, the following message in red will appear on the screen:
+ **'Must be 20 characters or less'**;
+* only letters and only one word (no spaces) will be accepted;
+* no symbols will be accepted;
+* it is allowed to use - and ';
+* if a new user inputs anything but letters or starts entering his/her second name (middle name or his/her title etc.) 
+  as a second word, the following warning message in red will be displayed:
+  **'Only letters please. Spaces and symbols are not allowed'**;
+* 'Example: Potter' will be templated at the bottom of this field   
 
 ### Cell phone number
  
-* field format should be complied with international standard:
+* field format should comply with international standard:
   17775551122 or 380653332244;
 * the field should contain only digits (0 - 9);
 * without spaces;
 * without the use of letters and special characters! @ # $% ^ & * () _ + = `~ / \,.?> <|;
 * phone number starts with country code;
-* the length of the entered data is not less than 11 and not more than 12 digits.
+* the length of the entered data is not less than 11 and not more than 12 digits
 
 
-### Email
+### E-mail
 
-* email field has to have a valid registered email address; 
+* email field has to have a valid registered email address;
 * user must be able to access the provided email in a domain;
 * after registration, user will receive an email with title "[PASV] Verify your email address" 
   and must follow instructions in the email to finish a confirmation process.
@@ -95,24 +105,24 @@ An empty field with title Last Name:
 
 ### About
 
-* should contain at least one character in any language;
-* number of characters in the field is unlimited;
+* should contain at least one character of any language;
+* number of characters in this field is unlimited;
 * a user will need to fill out information about his/her experience, skills or hobbies. 
    
 
 ### My goals
 
-* a user will need to fill out a short information on his/her goals and expectations from this course,
-  as well as his/her overall professional goals in the field of IT after completion of the course;
+* a user will fill out a short information on his/her expectations from this course, goals he/she wants to achieve
+  upon completion of the course, as well as his/her overall professional goals in the field of IT;
 * user can use his/her preferred language;
-* the field should contain at least one any character in any language;
-* number of characters in the field is unlimited.
+* the field should contain at least one any character of any language;
+* number of characters in this field is unlimited
 
 
 ### English level
 
-This field is to obtain information on the user's English proficiency level. 
-  Drop down menu offered 9 items:
+ This field is to obtain information on the user's English proficiency level. The drop-down menu will offer the
+ following nine options:
 * Zero
 * Beginner
 * Elementary
@@ -122,18 +132,18 @@ This field is to obtain information on the user's English proficiency level.
 * Advanced
 * Proficient
 * Native
-  The user is expected to pick only one option, and the green check-mark will show up
-  immediately after the user click on his/her choice from the breakdown.
+  The user is expected to pick only one option. 
  
  
  ### Submit button
  
-* once the user clicks on ‘Submit Button’ and the immediate message of “The user created successfully.
-  Please check your e-mail” will show up on the screen. The user will receive an e-mail with a confirmation
+* once the user clicks on **‘Submit Button’**, the following message will appear on his/her screen: 
+  **'The user created successfully. Please check your e-mail'**. The user will receive an e-mail with a confirmation
   of his/her registration;
-* the button will become active only upon all the fields are filled out; 
+* the button will become active/enabled only upon filling in all of the blank fields on the form; 
 
-Please note: after confirmation e-mail was successfully received by the user, he/she will gain full access to
- the system after his/her profile is reviewed and approved by the administrator (please see the details in the 
- ‘Overview: Description of the Page’ above). The administrator may request to edit applicant’s profile or block
-  or delete access if any fictitious or dummy data was suspected. 
+ **Please note**: the successful receipt of a confirmation e-mail by the new user is followed by 
+  the thorough review and approval of the user's data by the system administrator (please see the details above in 
+ ‘Overview: Description of the Page’). The administrator may request the new user to edit his/her profile or block
+  and delete his/her access if any fictitious or dummy data was suspected. 
+  
