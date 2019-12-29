@@ -1,7 +1,6 @@
 iurchenko-vladyslava	Login
 kadyrov-oleg	Login
 kovalenko-dmitriy	Login
-kuk-vova	Login
 kusevych-anzhelika	Login
 lutfullina-victoria	Login
 lysenko-hanna	Login
@@ -24,8 +23,7 @@ maslov-stanislav	Login
 ### Body
  * User has to fill 2 required text fields: email and password. 
  * These fields should correspond user’s email and password while their registration.
- 
-#### Kuk Vova
+
 * Email - input field, required, accept only existing on the database user’s email.
 
 #### Iryna Manukhina
