@@ -138,3 +138,7 @@ Version 0.1.109
 
 
 paromova-anastasiia	Profile
+***Goals:*** 
+User is asked to tell about his goals in programming and career. 
+Text area is required.
+The default state is zero character and the placeholder is  "1… 2… 3… "
