@@ -62,23 +62,3 @@ Contains version number, copyright notice with year and application slogan “ea
 Version number
 © year eat(); sleep(); code(); repeat();
 
-## Team Members 
-badmaev-artur
-	
-bandurova-anastasiia	
-
-bautsadze-guram	
-
-bryntseva-elena	
-
-botezatu-ekaterina	
-
-akhunbabaeva-yuliya	
-
-aminov-artur	
-
-andriievska-oksana	
-
-anisimova-marie	
-
-avdeeva-ekaterina
