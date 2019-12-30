@@ -62,3 +62,6 @@ Contains version number, copyright notice with year and application slogan “ea
 Version number
 © year eat(); sleep(); code(); repeat();
 
+
+#Test conflict git.
+
