@@ -22,7 +22,7 @@ Initial role after registration.
 This role Created to protect the app from low-quality profiles.
 The purpose of this role is to impose restrictions onto new account before it has been validated.  
 In order to be assigned with the role **'new'** users have to 
-register on [https://pasv.us/user/register], upon registration they will receive role *'new'** by default.
+register on [https://pasv.us/user/register], upon registration they will receive role **'new'** by default.
 All required fields have to be filled out to create the account.
 After registration, user getting assigned with **'new'** role.
 The role **'new'** only allows users to access and edit theirs profile information.  
@@ -38,7 +38,7 @@ The role **'new'** can be upgraded to **'learner'** role only with **'admin'**.
   * quiz: get, create answer, 
   * flash: get, create training
   
-Learners have access to all courses, included lectures, tests, cards, conspects and quizes.
+Learners have access to all courses, included lectures, tests, cards, conspects and quizzes.
 This role enables user to create diary post, but editing after it has been published is not permitted. 
  
 ### 3. Student
@@ -60,8 +60,8 @@ _(route to lectures page: Group -> Lectures - > select the lecture)_.
 
 
 ### 4. Teacher
- The role **‘teacher’** can access users list in Courses, Groups and their progress. 
- Also, **‘teacher’** can see all Daily reports in Dairy. 
+ The role **'teacher'** can access users list in Courses, Groups and their progress. 
+ Also, **'teacher'** can see all Daily reports in Dairy. 
  This role can access, create, update _Lectures_, _Homeworks_ and _Quizzes_.
  Permissions for **'teacher'** role:
  * Auth
@@ -74,14 +74,14 @@ _(route to lectures page: Group -> Lectures - > select the lecture)_.
  * Quiz: create, update, get, answer
 
 ### 5. Quiz
-Any user assigned with the role **‘quiz’** can access, edit, 
-delete as well as create new quiz. However, users with the role **‘quiz’** 
+Any user assigned with the role **'quiz'** can access, edit, 
+delete as well as create new quiz. However, users with the role **'quiz'** 
 cannot change or see their profile settings and info, have no access 
 to lectures, courses and any other project section except for _Quiz_ section and _homepage_. 
-The role **‘quiz’** can be only assigned to a user by administrator, or assigned 
+The role **'quiz'** can be only assigned to a user by administrator, or assigned 
 manually by database administrator.
           
-_Permissions for **‘quiz’** role:_
+_Permissions for **'quiz'** role:_
 * _User:_ auth;
 * _Quiz question, - answer, - question group, - answer group:_ 
 all permissions are granted. _(* See Permissions Matrix below)_
@@ -98,12 +98,12 @@ also possible to track student's progress and update it.
 _Permissions:_ ["course.get.all", "course.create", "course.update.any", "lesson.create"]
 
 ### 7. Flash
-Users assigned with the role **‘flash’** can access, create and edit _flash cards_, 
+Users assigned with the role **'flash'** can access, create and edit _flash cards_, 
 but unable to delete them. Such users can not change or see their _profile settings and info_.
 They have no access to lectures, courses and any other project sections except 
 for _flash cards_ section. 
 
-The role **‘flash’** can be only assigned to the user by another user with **'admin'** role, or assigned 
+The role **'flash'** can be only assigned to the user by another user with **'admin'** role, or assigned 
 manually by database administrator. 
 Available actions for the users with the role **'flash'**:
 * _Flash:_ 'refresh' 
