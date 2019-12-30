@@ -63,7 +63,8 @@ _(route to lectures page: Group -> Lectures - > select the lecture)_.
  The role **'teacher'** can access users list in Courses, Groups and their progress. 
  Also, **'teacher'** can see all Daily reports in Dairy. 
  This role can access, create, update _Lectures_, _Homeworks_ and _Quizzes_.
- Permissions for **'teacher'** role:
+ 
+ _Permissions for **'teacher'** role:_
  * Auth
  * Get all users
  * Courses: get all courses
@@ -94,7 +95,8 @@ it is allowed to create new and edit the content
 of available courses and lessons. Such users can group courses by name and section,
 embed lecture videos and add links to additional 
 resources that can help to learn more on given topic. It is 
-also possible to track student's progress and update it. 
+also possible to track student's progress and update it.
+
 _Permissions:_ ["course.get.all", "course.create", "course.update.any", "lesson.create"]
 
 ### 7. Flash
@@ -105,7 +107,8 @@ for _flash cards_ section.
 
 The role **'flash'** can be only assigned to the user by another user with **'admin'** role, or assigned 
 manually by database administrator. 
-Available actions for the users with the role **'flash'**:
+
+_Available actions for the users with the role **'flash'**:_
 * _Flash:_ 'refresh' 
 * _Flash:_ 'create new card' => have two fields 'questions' & 'answers'
 * _Flash:_ 'training'
@@ -113,8 +116,8 @@ Available actions for the users with the role **'flash'**:
 ### 8. Admin 
 The **'admin'** role has all the permissions available. Administrators manually checks new 
 user accounts and decides which roles they should receive. 
-_Admin's Permissions breakdown by Application and Activities:_
 
+_Admin's Permissions breakdown by Application and Activities:_
 * _User:_ auth, get.all, delete.any, update.any;
 * _Course:_ get.all, create, update.any, delete,any, lesson.create;
 * _Group:_ get.all, get, create, update.any, delete.any;
