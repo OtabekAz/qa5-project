@@ -11,8 +11,8 @@ links to social media pages and other information.
 The registration page is displayed after the user clicks “Settings” in the dropdown menu under their name on the Homepage.
 The user should be redirected to “Edit profile” page.
 
-##### HEADER
- Header is displayed Navigator bar:
+#### HEADER
+ Header is displaying the Navigation bar:
 * Clicking on the” Progress monitor”  gets redirected user  to the Home Page.
 * Clicking on the “Courses” gets redirected user  to the “Courses” Page.
 * Clicking on the “Cards” gets redirected user  to the “FleshCards” Page.
@@ -23,14 +23,15 @@ The user should be redirected to “Edit profile” page.
 * Selecting “Setting” option in the dropdown gets redirected back to the “Setting” Page.
 * Selecting “Logout” option in the dropdown gets log out from apps and redirected user  to the “User Login” Page.
 
+#### BODY
 #### First Name
 In this field the user can change his First name.
-Use only English letters. Spaces and symbols are not allowed, except for a single use of the hyphen “-“. Must be 20 characters or less.
+Use only English letters. Spaces and symbols are not allowed, except for a single use of the hyphen “-“ and apostrophe. Must be 20 characters or less.
 The user sees a warning if the input does not match the requirements
 
 #### Last Name
 In this field the user can change his Last name.
-Use only English letters. Spaces and symbols are not allowed, except for a single use of the hyphen “-“. Must be 20 characters or less.
+Use only English letters. Spaces and symbols are not allowed, except for a single use of the hyphen “-“ and apostrophe. Must be 20 characters or less.
 The user sees a warning if the input does not match the requirements
 
 #### Email confirmed
@@ -57,28 +58,29 @@ appears on the right.
  to help user understand the problem.
 
 #### About
-About is a required field.
+"About" is a required field.
 The user can change information about himself, his experience, hobby. Any language can be used.
 
 #### Goals
-My Goals  is a required field.
+"My Goals"  is a required field.
 The user can change his Goals by writing information about his goals in programming, career. Any language can be used.
 
 #### English level
 The user can change his English language level by selecting  one of options from the pop-up menu:
 Zero, Beginner, Elementary, Pre-intermediate, Intermediate, Upper-intermediate, Advanced, Proficient, Native.
 
+#### Social media links
+The user can provide links to his Google doc resume, Linkedin profile, Facebook page and Github profile. 
+##### Google Doc resume link
+Go to your Google doc resume, click "Share" button, choose "view to all", copy the link and paste it into the corresponding text field.
+##### LinkedIn profile link
+Go to your LinkedIn profile, copy and paste the link into the corresponding text field. 
+##### Facebook profile link
+In this field, the user can insert a link to his Facebook account:  
+Go to FB, click your avatar in the right top corner, copy and paste the link here. Example: https://www.facebook.com/bogutskiii
 
-#### Google Doc resume link
-
-#### LinkedIn profile link
-
-#### Facebook profile link
-In this field, the user can insert a link to his Facebook account:
-Go to FB, click to avatar in the right top corner, copy and paste the link here. Example: https://www.facebook.com/bogutskiii
-
-#### GitHub profile link
-
+##### GitHub profile link
+Go to your GitHub profile, copy and paste the link into the corresponding text field.
 #### Codewars link
 The user can write a link to his Codewars profile ( It is not a required field ).
 * Once the user clicked on "Add Codewars link" button pop-up menu should appear.
@@ -93,10 +95,10 @@ The user can write his actual address ( It is not a required field )
 * Any symbols can be used.
 * Only administrators can see the address.
 
-#### Footer
-Footer is displayed two lines according to spec requirements.
-First line is Version: {version}”, {version} = current version (verify with devs that version is up-to-date)
-Second line (current year, JavaScript style’s slogan): © 2019 eat(); sleep(); code(); repeat();
+#### FOOTER
+Footer is displaying two lines according to spec requirements.  
+First line: current version.  
+Second line: copyright information: (current year, JavaScript style’s slogan): © 2019 eat(); sleep(); code(); repeat();
 
 
 
