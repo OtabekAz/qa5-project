@@ -35,7 +35,14 @@ Here he/she can edit his/her Profile.
 * **Logout:** by clicking on it User can log out.
 
 
-1.3. On Profile page User can also see 3 small icons and 2 labels: (!Complete)
+1.3. On Profile page User can also see small icons and labels. 
+Icon is available if User indicated link to the website during registration.
+
+* **Google Docs icon:** it redirects User to his/her Google Document.
+
+* **Facebook icon:** it redirects User to his/her Facebook account.
+
+* **LinkedIn icon:** it redirects User to his/her LinkedIn account.
 
 * **GitHub icon:** it redirects User to his/her GitHub account.
 
