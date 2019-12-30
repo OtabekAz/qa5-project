@@ -80,13 +80,18 @@ Go to FB, click to avatar in the right top corner, copy and paste the link here.
 #### GitHub profile link
 
 #### Codewars link
+The user can write a link to his Codewars profile ( It is not a required field ).
+* Once the user clicked on "Add Codewars link" button pop-up menu should appear.
+* Pop-up menu should help user to understand where the user can take URL to profile.
+* Pop-up menu should have an empty field, User should paste his link in the field. 
 
 #### T-Shirt size
 The user can choose T-shirt size by selecting  one of the options from the pop-up menu.
 
 #### Delivery address
-
-
+The user can write his actual address ( It is not a required field )
+* Any symbols can be used.
+* Only administrators can see the address.
 
 #### Footer
 Footer is displayed two lines according to spec requirements.
