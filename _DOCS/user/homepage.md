@@ -5,12 +5,12 @@
 **URL:** https://app.pasv.us/
 
 The **purpose of the page** is to introduce registered and unregistered users 
-to the main idea of a project _PASV_. It is a course that enables a user to study the programming and implement knowledge 
+to the main idea of a project _PASV_. It is a course that enables a user to study the programming and QA basics, and implement knowledge 
 in a sequential, interactive, and challenging ways. 
 
 **HEADER** 
 
-**Login and Register buttons** are available and active for both registered and unregistered users.
+**Login and Register buttons** are available and active for unregistered users.
  It is possible to come back to the homepage from different parts of the application by clicking 
  on **Progress Monitor** button. 
 
@@ -41,19 +41,18 @@ The page is **informational and analytical** in its nature. It allows a user to 
 * The teaching principles and methods;
 * A progress monitor information by providing statistics of an individual student and a whole group studying progress.  
 
-* “Group work synergy” contains a short description of page “Groups” https://app.pasv.us/group, without a link to this page, and it only shows a representation picture of this section.
+* “Group work synergy” contains a short description of page “Groups” https://app.pasv.us/group, without a link to this page, and it only shows a screenshot of this section.
 
-* “Progress analysis” contains a short description of student progress chart situated at the page “Profile”, without a link to this page, and it only shows a representation picture of this chart.
+* “Progress analysis” contains a short description of student progress chart situated at the page “Profile”, without a link to this page, and it only shows a screenshot of this chart.
 
-* “Quizzes” contains a short description of training tests that students must pass after completing a lesson before commencing a new one. Description is without a link to this page, and it only shows a representation picture of training tests.
+* “Quizzes” contains a short description of training tests that students must pass after completing a lesson before commencing a new one. Description is without a link to this page, and it only shows a screenshot of training tests.
 
-* “Daily reports” contains a short description of page “Diary” https://app.pasv.us/diary, without a link to this page, and it only shows a representation picture of this section.
+* “Daily reports” contains a short description of page “Diary” https://app.pasv.us/diary, without a link to this page, and it only shows a screenshot of this section.
 
 * “Lectures” contains a short description of page “Diary” situated in section “Groups” https://app.pasv.us/group. Section “Groups” contains different groups allocated by topic under study. For each group there is a personal list of lectures. Description is without a link to this page, and it only shows representation picture of this section.
 
 * “Real-time tracking progress” contains a short description of the progress of each student in comparison to other students of the group. The page is situated at https://app.pasv.us/course/5c140b2b42f6ea23059cbe8f/report.
- Description is without a link to this page, and it only shows a representation picture of this section.
-
+ Description is without a link to this page, and it only shows a screenshot of this section.
 
 **FOOTER** 
 
