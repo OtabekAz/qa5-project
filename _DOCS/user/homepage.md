@@ -27,8 +27,8 @@ _Page description for a registered user in the role of ‘Student’_
 | No. | Buttons with anchor hyperlink| Result|     
 | ------ | ----------- | -------|
 | 1 | Progress Monitor |It causes a page refresh.| 
-| 2 | Login |It takes a user to User Login page https://app.pasv.us/user/login, and offers to enter the registered user’s credentials (email, password).| 
-| 3 | Register |It takes a user to User Register page https://app.pasv.us/user/register, and offers to enter the existing user’s credentials (email, password).|
+| 2 | There is no Login button ~~Login~~ |~~It takes a user to User Login page https://app.pasv.us/user/login, and offers to enter the registered user’s credentials (email, password).~~|
+| 3 | There is no Register button ~~Register~~ |~~It takes a user to User Register page https://app.pasv.us/user/register, and offers to enter the existing user’s credentials (email, password).~~|
 | 4 | Courses |It takes a user to a list of available courses: https://app.pasv.us/course.|
 | 5 | Cards |It takes a user to the section of Cards: https://app.pasv.us/flash.| 
 | 6 | Groups  |It takes a user to Groups he/she belongs to: https://app.pasv.us/group.|
@@ -60,7 +60,4 @@ Contains version number, copyright notice with year and application slogan “ea
 
 Version number
 © year eat(); sleep(); code(); repeat();
-
-
-#Test conflict git.
 
